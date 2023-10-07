@@ -234,6 +234,9 @@ class _HomeScreenState extends State<HomeScreen> {
 
           const SizedBox(height: 10,),
 
+
+          ///this container is just a trial of fetching data from some other api to see it fetches data.But for the containers belows the should fetch data
+          ///from yokatale apis but unfartunately the data doesnot show in the app but shows in postsman and a webbrowser.
           Container(
             decoration: BoxDecoration(
                 color:Colors.grey[100],
@@ -285,8 +288,10 @@ class _HomeScreenState extends State<HomeScreen> {
           const SizedBox(height: 10,),
           //fruits widget
 
-          // replicate this for the remaining items which include rootubers,vegetables,grains,meats,fats and herbs.
-          //use their apis to extract the needed data
+          /// replicate this for the remaining items which include rootubers,vegetables,grains,meats,fats and herbs.
+          ///use their yokatale apis to extract the needed data
+          ///follow the design pattern of the yokatale website for the home page
+          ///link https://www.yookatale.com
           Container(
             decoration: BoxDecoration(
                 color:Colors.grey[100],
